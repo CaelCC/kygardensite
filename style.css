@@ -119,18 +119,28 @@ nav .navigation ul li a:hover {
     background-color: #fff;
 }
 
-#about_us{
+#about_us {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 5vw 8vw 0 8vw;
     text-align: center;
+
 }
 
-#about_us h1{
+#about_us h1 {
     color: #67963a;
     font-size: 2.3rem;
     letter-spacing: 1px;
 }
 
-#about_us p{
+#about_us p {
     color: #6a634d;
     font-size: .9rem;
     letter-spacing: 1px;
@@ -153,14 +163,14 @@ nav .navigation ul li a:hover {
     color: #6a634d;
 }
 
-#about_us .about-box h3{
+#about_us .about-box h3 {
     font-size: 1.2rem;
     font-weight: 600;
     color: #67963a;
     padding: 13px 0 7px 0;
 }
 
-#about_us .about-box p{
+#about_us .about-box p {
     font-size: 1rem;
     font-weight: 400;
     color: black;
@@ -175,8 +185,8 @@ footer {
     position: relative;
     width: 100%;
     background: #67963a;
-    height: 25vh;
-    padding: 25px 50px;
+    height: 20vh;
+    padding: 2.5px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +199,7 @@ footer .menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin: 2.5px 0;
 }
 
 footer .social_icon li,
@@ -220,7 +230,7 @@ footer .menu li a {
 }
 
 footer .menu li a:hover {
-    opacity: 1;
+    opacity: 10;
 }
 
 footer p {
